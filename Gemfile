@@ -49,3 +49,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'roo-xls'
 gem 'axlsx_rails'
 gem 'zip-zip'
+
