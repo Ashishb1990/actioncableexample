@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :products do
+    collection { post :import }
+  end
   get 'events/index'
 
   root 'home#index'
